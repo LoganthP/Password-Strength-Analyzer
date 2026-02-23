@@ -1,183 +1,250 @@
+# 🔐 CipherGuard --- AI-Powered Password Strength Analyzer
+
+```{=html}
 <p align="center">
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-4.2-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Framer_Motion-12-FF0055?style=for-the-badge&logo=framer&logoColor=white" />
+```
+`<img src="https://img.shields.io/badge/AI-Security%20Intelligence-0A0F1F?style=for-the-badge" />`{=html}
+`<img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" />`{=html}
+`<img src="https://img.shields.io/badge/TypeScript-Strict-blue?style=for-the-badge&logo=typescript" />`{=html}
+`<img src="https://img.shields.io/badge/TailwindCSS-Glassmorphism-06B6D4?style=for-the-badge&logo=tailwindcss" />`{=html}
+`<img src="https://img.shields.io/badge/Security-Client%20Side-green?style=for-the-badge" />`{=html}
+```{=html}
 </p>
-
-<h1 align="center">🛡️ CipherGuard</h1>
-
+```
+```{=html}
 <p align="center">
-  <strong>AI-Powered Password Security Intelligence</strong>
+```
+`<b>`{=html}Real-time Advanced Password Security Intelligence with
+Futuristic Glassmorphism UI`</b>`{=html}
+```{=html}
 </p>
+```
 
-<p align="center">
-  <em>A real-time password strength analyzer with a modern glassmorphism UI, built for developers who care about security — and aesthetics.</em>
-</p>
+------------------------------------------------------------------------
 
-<br />
+## 🌌 Overview
 
-<p align="center">
-  <img src="./preview.png" alt="CipherGuard Preview" width="720" />
-</p>
+**CipherGuard** is a modern AI-powered Password Strength Analyzer
+designed to provide real-time security intelligence for user passwords.\
+It evaluates password strength using entropy analysis, character
+diversity, and crack-time estimation while maintaining full client-side
+privacy.
 
----
+This project features a futuristic glassmorphism dashboard UI,
+interactive strength meter, and AI secure password generation --- making
+it ideal for cybersecurity demos, portfolios, and academic projects.
 
-## ✨ Features
+------------------------------------------------------------------------
 
-| Feature | Description |
-|---|---|
-| 🔐 **Real-time Strength Analysis** | Instantly evaluates password security as you type |
-| 🧠 **Entropy Calculation** | Mathematical entropy score (log₂(R^L)) for precise measurement |
-| ⏱️ **Brute Force Time Estimation** | Shows how long it would take to crack offline |
-| ✅ **Protocol Checklist** | Visual requirement tracker — length, uppercase, lowercase, numbers, symbols |
-| 🤖 **AI Secure Generator** | One-click generation of cryptographically strong 18-character passwords |
-| 📋 **Copy to Clipboard** | Generate & copy in a single click |
-| 💡 **Smart Suggestions** | Context-aware tips to improve weak passwords |
-| 👁️ **Password Visibility Toggle** | Show/hide password with a single click |
-| 📱 **Fully Responsive** | Looks great on mobile, tablet, and desktop |
+## ✨ Key Features
 
----
+🔐 Real-time Password Strength Analysis\
+🧠 Entropy-Based Security Calculation\
+⚡ AI Secure Password Generator\
+📊 Crack Time Estimation (Brute-force simulation)\
+🎨 Futuristic Glassmorphism UI (Cyber Dashboard)\
+📱 Fully Responsive Design (Mobile + Desktop)\
+🔍 Requirement Validation Checklist\
+🛡️ 100% Client-Side Privacy (No password storage)
 
-## 🎨 Design
+------------------------------------------------------------------------
 
-CipherGuard features a **modern SaaS glassmorphism** design:
+## 🧠 System Working (Block Diagram)
 
-- 🌌 **Dark gradient background** with soft indigo, purple & cyan radial glows
-- 💎 **Centered glass card** — `backdrop-blur-xl`, `rounded-3xl`, `shadow-2xl`
-- ✍️ **Clean typography** — Inter + Space Grotesk
-- 🎭 **Gradient accents** — Indigo → Purple → Cyan
-- ⚡ **Smooth animations** — Framer Motion fade-ins, hover scales, progress bars
-- 🧊 **No cyberpunk overload** — professional, portfolio-ready aesthetic
+                 ┌──────────────────────────┐
+                 │        User Input        │
+                 │  (Password / Generate)  │
+                 └─────────────┬────────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────┐
+                 │   Input Handler Module   │
+                 │ (Masking + Validation)  │
+                 └─────────────┬────────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────┐
+                 │ Password Analysis Engine │
+                 │  • Length Check         │
+                 │  • Character Diversity  │
+                 │  • Pattern Detection    │
+                 │  • Entropy Calculation  │
+                 └─────────────┬────────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────┐
+                 │  Strength Scoring Logic  │
+                 │  (Weak → Unbreakable)   │
+                 └─────────────┬────────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────┐
+                 │ Crack Time Estimator     │
+                 │ (Brute Force Simulation) │
+                 └─────────────┬────────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────┐
+                 │  UI Visualization Layer  │
+                 │  • Strength Meter       │
+                 │  • Entropy Card         │
+                 │  • Requirements Check   │
+                 │  • Security Feedback    │
+                 └─────────────┬────────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────┐
+                 │   Glassmorphism Dashboard│
+                 │   (CipherGuard Interface)│
+                 └──────────────────────────┘
 
----
+------------------------------------------------------------------------
+
+## ⚙️ System Architecture
+
+### 🔄 Working Flow
+
+1.  User enters or generates a password
+2.  Input is securely masked and processed locally
+3.  Analyzer evaluates:
+    -   Length
+    -   Uppercase & Lowercase
+    -   Numbers & Symbols
+    -   Entropy score
+4.  Strength classification is computed
+5.  Crack time is estimated using entropy model
+6.  UI updates in real-time with:
+    -   Strength meter
+    -   Entropy score
+    -   Requirements checklist
+    -   Security intelligence feedback
+
+------------------------------------------------------------------------
+
+## 📁 Project File Architecture
+
+    Password-Strength-Analyzer/
+    │
+    ├── public/
+    │ └── favicon.ico
+    │
+    ├── src/
+    │ ├── assets/
+    │ │ └── icons, images, UI assets
+    │ │
+    │ ├── components/
+    │ │ ├── PasswordInput.tsx
+    │ │ ├── StrengthMeter.tsx
+    │ │ ├── EntropyCard.tsx
+    │ │ ├── CrackTimeCard.tsx
+    │ │ ├── RequirementsList.tsx
+    │ │ ├── GenerateButton.tsx
+    │ │ └── DashboardCard.tsx
+    │ │
+    │ ├── utils/
+    │ │ ├── passwordAnalyzer.ts
+    │ │ ├── entropyCalculator.ts
+    │ │ ├── crackTimeEstimator.ts
+    │ │ └── passwordGenerator.ts
+    │ │
+    │ ├── hooks/
+    │ │ └── usePasswordStrength.ts
+    │ │
+    │ ├── styles/
+    │ │ └── index.css
+    │ │
+    │ ├── App.tsx
+    │ ├── main.tsx
+    │ └── vite-env.d.ts
+    │
+    ├── tailwind.config.js
+    ├── postcss.config.js
+    ├── tsconfig.json
+    ├── package.json
+    └── README.md
+
+------------------------------------------------------------------------
 
 ## 🛠️ Tech Stack
 
+-   React 18 + Vite\
+-   TypeScript\
+-   Tailwind CSS (Glassmorphism UI)\
+-   Framer Motion (Animations)\
+-   Lucide Icons\
+-   Zxcvbn (Optional Strength Logic)
+
+------------------------------------------------------------------------
+
+## 🔐 Password Strength Evaluation Parameters
+
+-   Length Analysis (8+ recommended)
+-   Uppercase & Lowercase Detection
+-   Numeric Complexity
+-   Symbol Diversity
+-   Entropy Score (Mathematical)
+-   Pattern & Weak Password Detection
+-   Brute Force Crack Time Estimation
+
+------------------------------------------------------------------------
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+``` bash
+git clone https://github.com/LoganthP/Password-Strength-Analyzer.git
+cd Password-Strength-Analyzer
 ```
-Frontend        React 19 + TypeScript 5.9
-Build Tool      Vite 7
-Styling         Tailwind CSS 4.2 (via @tailwindcss/vite)
-Animations      Framer Motion 12
-Icons           Lucide React
-Password Logic  zxcvbn (by Dropbox)
-Fonts           Inter, Space Grotesk (Google Fonts)
-```
 
----
+### 2️⃣ Install Dependencies
 
-## 🚀 Quick Start
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) v20+ recommended
-- npm v9+
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/cipherguard.git
-cd cipherguard
-
-# Install dependencies
+``` bash
 npm install
+```
 
-# Start the development server
+### 3️⃣ Run the Development Server
+
+``` bash
 npm run dev
 ```
 
-Then open **http://localhost:5173** in your browser.
+### 4️⃣ Open in Browser
 
-### Build for Production
+http://localhost:5173/
 
-```bash
-npm run build
-npm run preview
-```
+------------------------------------------------------------------------
 
----
+## 🛡️ Security & Privacy
 
-## 📁 Project Structure
+-   No password storage
+-   No backend logging
+-   Fully client-side analysis
+-   Secure input masking
+-   Local entropy computation
 
-```
-pwd/
-├── index.html                    # Entry HTML with Google Fonts
-├── vite.config.ts                # Vite + React + Tailwind CSS config
-├── package.json
-├── tsconfig.json
-└── src/
-    ├── main.tsx                  # React entry point
-    ├── index.css                 # Global styles + Tailwind theme
-    ├── App.tsx                   # Hero layout + glass card + state management
-    ├── utils/
-    │   └── passwordAnalyzer.ts   # Entropy calc, zxcvbn integration, generator
-    └── components/
-        ├── PasswordInput.tsx     # Styled input with visibility toggle
-        ├── StrengthMeter.tsx     # Animated progress bar + step indicators
-        ├── SecurityAnalysis.tsx  # Entropy/crack time cards + checklist + tips
-        └── PasswordGenerator.tsx # Gradient generate button + copy
-```
+------------------------------------------------------------------------
 
----
+## 🎯 Use Cases
 
-## 🔒 Security & Privacy
+-   Cybersecurity Awareness Tools
+-   Portfolio Projects (AI + Security)
+-   Academic Mini/Major Projects
+-   Password Policy Demonstrations
+-   UI/UX Security Dashboards
 
-| Principle | Implementation |
-|---|---|
-| 🚫 **No storage** | Passwords are never saved, logged, or transmitted |
-| 🏠 **100% client-side** | All analysis runs locally in the browser |
-| 🔇 **No console logging** | Password values are never written to console |
-| 🌐 **No network calls** | Zero external API calls — fully offline capable |
+------------------------------------------------------------------------
 
----
+## 👨‍💻 Author
 
-## 📊 How It Works
+Loganth P\
+AI & Full Stack Developer\
+Cybersecurity + Intelligent Systems Enthusiast
 
-CipherGuard combines **mathematical entropy analysis** with **pattern-based detection** powered by Dropbox's [zxcvbn](https://github.com/dropbox/zxcvbn) library:
+GitHub: https://github.com/LoganthP
 
-1. **Character Pool Analysis** — Calculates the total character space (lowercase, uppercase, digits, symbols)
-2. **Entropy Score** — `E = log₂(R^L)` where R = pool size, L = password length
-3. **Pattern Detection** — Detects dictionary words, keyboard patterns, dates, repeated characters
-4. **Crack Time Estimation** — Estimates brute force time assuming 10,000 hashes/second
-5. **Scoring** — Combines all factors into a 0–4 score (Weak → Unbreakable)
+------------------------------------------------------------------------
 
----
+## 📜 License
 
-## 🎯 Scoring System
-
-| Score | Label | Color | Meaning |
-|:---:|---|---|---|
-| 0–1 | **Weak** | 🔴 Red | Easily guessable, immediate risk |
-| 2 | **Moderate** | 🟡 Amber | Some protection, but improvable |
-| 3 | **Strong** | 🟢 Green | Good protection against most attacks |
-| 4 | **Unbreakable** | 🔵 Cyan | Maximum security, excellent entropy |
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  <strong>Built with ❤️ by Logan</strong>
-</p>
-
-<p align="center">
-  <sub>If you found this useful, consider giving it a ⭐</sub>
-</p>
+This project is open-source and available under the MIT License.
