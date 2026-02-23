@@ -1,53 +1,39 @@
-# 🔐 CipherGuard --- AI-Powered Password Strength Analyzer
+# 🔐 CipherGuard — AI-Powered Password Strength Analyzer
 
-```{=html}
 <p align="center">
-```
-`<img src="https://img.shields.io/badge/AI-Security%20Intelligence-0A0F1F?style=for-the-badge" />`{=html}
-`<img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" />`{=html}
-`<img src="https://img.shields.io/badge/TypeScript-Strict-blue?style=for-the-badge&logo=typescript" />`{=html}
-`<img src="https://img.shields.io/badge/TailwindCSS-Glassmorphism-06B6D4?style=for-the-badge&logo=tailwindcss" />`{=html}
-`<img src="https://img.shields.io/badge/Security-Client%20Side-green?style=for-the-badge" />`{=html}
-```{=html}
+  <img src="https://img.shields.io/badge/AI-Security%20Intelligence-0A0F1F?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/TypeScript-Strict-blue?style=for-the-badge&logo=typescript" />
+  <img src="https://img.shields.io/badge/TailwindCSS-Glassmorphism-06B6D4?style=for-the-badge&logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/Security-Client%20Side-green?style=for-the-badge" />
 </p>
-```
-```{=html}
-<p align="center">
-```
-`<b>`{=html}Real-time Advanced Password Security Intelligence with
-Futuristic Glassmorphism UI`</b>`{=html}
-```{=html}
-</p>
-```
 
-------------------------------------------------------------------------
+<p align="center">
+  <b>Real-time Advanced Password Security Intelligence with Futuristic Glassmorphism UI</b>
+</p>
+
+---
 
 ## 🌌 Overview
 
-**CipherGuard** is a modern AI-powered Password Strength Analyzer
-designed to provide real-time security intelligence for user passwords.\
-It evaluates password strength using entropy analysis, character
-diversity, and crack-time estimation while maintaining full client-side
-privacy.
+**CipherGuard** is a modern AI-powered Password Strength Analyzer that provides real-time password security intelligence using entropy calculation, character diversity analysis, and crack-time estimation — all processed securely on the client side.
 
-This project features a futuristic glassmorphism dashboard UI,
-interactive strength meter, and AI secure password generation --- making
-it ideal for cybersecurity demos, portfolios, and academic projects.
+It features a futuristic glassmorphism dashboard UI, animated strength meter, and AI secure password generation, making it ideal for cybersecurity portfolios, academic projects, and intelligent UI demonstrations.
 
-------------------------------------------------------------------------
+---
 
 ## ✨ Key Features
 
-🔐 Real-time Password Strength Analysis\
-🧠 Entropy-Based Security Calculation\
-⚡ AI Secure Password Generator\
-📊 Crack Time Estimation (Brute-force simulation)\
-🎨 Futuristic Glassmorphism UI (Cyber Dashboard)\
-📱 Fully Responsive Design (Mobile + Desktop)\
-🔍 Requirement Validation Checklist\
-🛡️ 100% Client-Side Privacy (No password storage)
+- 🔐 Real-time Password Strength Analysis  
+- 🧠 Entropy-Based Security Calculation  
+- ⚡ AI Secure Password Generator  
+- 📊 Crack Time Estimation (Brute-force simulation)  
+- 🎨 Futuristic Glassmorphism UI Dashboard  
+- 📱 Fully Responsive (Desktop + Mobile)  
+- ✅ Requirements Validation Checklist  
+- 🛡️ 100% Client-Side Privacy (No password storage)
 
-------------------------------------------------------------------------
+---
 
 ## 🧠 System Working (Block Diagram)
 
