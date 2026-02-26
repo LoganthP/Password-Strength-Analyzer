@@ -36,53 +36,29 @@ It features a futuristic glassmorphism dashboard UI, animated strength meter, an
 ---
 
 ## 🧠 System Working (Block Diagram)
-
-                 ┌──────────────────────────┐
-                 │        User Input        │
-                 │  (Password / Generate)  │
-                 └─────────────┬────────────┘
-                               │
-                               ▼
-                 ┌──────────────────────────┐
-                 │   Input Handler Module   │
-                 │ (Masking + Validation)  │
-                 └─────────────┬────────────┘
-                               │
-                               ▼
-                 ┌──────────────────────────┐
-                 │ Password Analysis Engine │
-                 │  • Length Check         │
-                 │  • Character Diversity  │
-                 │  • Pattern Detection    │
-                 │  • Entropy Calculation  │
-                 └─────────────┬────────────┘
-                               │
-                               ▼
-                 ┌──────────────────────────┐
-                 │  Strength Scoring Logic  │
-                 │  (Weak → Unbreakable)   │
-                 └─────────────┬────────────┘
-                               │
-                               ▼
-                 ┌──────────────────────────┐
-                 │ Crack Time Estimator     │
-                 │ (Brute Force Simulation) │
-                 └─────────────┬────────────┘
-                               │
-                               ▼
-                 ┌──────────────────────────┐
-                 │  UI Visualization Layer  │
-                 │  • Strength Meter       │
-                 │  • Entropy Card         │
-                 │  • Requirements Check   │
-                 │  • Security Feedback    │
-                 └─────────────┬────────────┘
-                               │
-                               ▼
-                 ┌──────────────────────────┐
-                 │   Glassmorphism Dashboard│
-                 │   (CipherGuard Interface)│
-                 └──────────────────────────┘
+```mermaid
+flowchart TD
+    A[User Enters Password] --> B[Frontend Interface]
+    
+    B --> C[Real Time Input Validation]
+    C --> D[Password Analysis Engine]
+    
+    D --> E[Length Evaluation Module]
+    D --> F[Character Complexity Checker]
+    D --> G[Pattern and Entropy Analysis]
+    
+    E --> H[Strength Scoring Engine]
+    F --> H
+    G --> H
+    
+    H --> I[Strength Classification]
+    
+    I --> J[Weak Medium Strong Result]
+    J --> K[Security Feedback and Suggestions]
+    
+    K --> L[Visualization Layer]
+    L --> M[Strength Meter and UI Indicators]
+```
 
 ------------------------------------------------------------------------
 
