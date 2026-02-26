@@ -1,4 +1,4 @@
-# 🔐 CipherGuard — AI-Powered Password Strength Analyzer
+<h1 align="center">🔐 CipherGuard — AI-Powered Password Strength Analyzer</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI-Security%20Intelligence-0A0F1F?style=for-the-badge" />
